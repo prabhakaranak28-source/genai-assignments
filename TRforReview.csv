@@ -1,0 +1,11 @@
+Test Case ID,Test Case,Type,Quality
+TR_140514_001,Validate that a dedicated Metering section is available within each Subscription Plan in the Metering Flow,Functional,Medium
+TR_140514_002,Validate that the Enabled Metering Components subsection displays all metering components currently enabled for the subscription plan,Functional,Medium
+TR_140514_003,Validate that the Available Metering Components subsection displays all metering components configured at the Stream level but not yet enabled for the subscription plan,Functional,Medium
+TR_140514_004,Validate that users can toggle between Table View and Tile View in the Enabled Metering Components section,Functional,Medium
+TR_140514_005,Validate that users can toggle between Table View and Tile View in the Available Metering Components section,Functional,Medium
+TR_140514_006,Validate that an enabled metering component can be deleted when there are no active subscriptions associated with the subscription plan,Functional,Medium
+TR_140514_007,Validate that deletion of an enabled metering component is blocked when active subscriptions exist for the subscription plan,Functional,Medium
+TR_140514_008,Validate that users can review available metering components and configure them against the subscription plan,Functional,Medium
+TR_140514_009,"Validate that once an available metering component is configured, it moves from the Available section to the Enabled section",Functional,Medium
+TR_140514_010,Validate that a newly configured metering component no longer appears in the Available Metering Components list after being enabled,Functional,Medium
